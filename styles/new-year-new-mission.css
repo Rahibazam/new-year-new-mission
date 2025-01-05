@@ -76,3 +76,58 @@
     color: #070211;
     margin-bottom: 48px;
 }
+
+/* midnight party related styles */
+
+.midnight-party{
+    margin: 120px 0px;
+}
+
+.midnight-party-content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.midnight-party > .global-container{
+    height: 600px;
+    background-image: linear-gradient( to right, rgba(7, 2, 17, 100), rgba(7, 2, 17, 0)), url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin: auto;
+    /* text-align: left; */
+    align-content: center;
+    padding-left: 100px;
+}
+
+.midnight-party-info{
+    width: 697px;
+    margin: 100px 0px;
+    color: white;
+}
+
+.midnight-party-description{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    margin: 24px 0px;
+    font-weight: lighter;
+}
+
+.midnight-party-btn{
+    background-color: transparent;
+    color: white;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding-left: 35px;
+    margin-top: 24px;
+}
+
+.midnight-party-img{
+    width: 320px;
+    margin-right: 250px;
+    align-content: center;
+
+}
