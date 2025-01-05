@@ -21,7 +21,6 @@
 /* new year party related styles */
 
 .new-year-party{
-    /* text-align: center; */
     padding: 100px 0px;
 }
 
@@ -91,19 +90,18 @@
 
 .midnight-party > .global-container{
     height: 600px;
-    background-image: linear-gradient( to right, rgba(7, 2, 17, 100), rgba(7, 2, 17, 0)), url(../images/Vectorrr.png);
+    background-image: linear-gradient( to right, rgba(7, 2, 17, 90), rgba(7, 2, 17, 0)), url(../images/Vectorrr.png);
     background-repeat: no-repeat;
     border-radius: 16px;
     margin: auto;
-    /* text-align: left; */
     align-content: center;
-    padding-left: 100px;
 }
 
 .midnight-party-info{
     width: 697px;
     margin: 100px 0px;
     color: white;
+    padding-left: 90px;
 }
 
 .midnight-party-description{
@@ -127,7 +125,47 @@
 
 .midnight-party-img{
     width: 320px;
-    margin-right: 250px;
+    margin-right: 90px;
     align-content: center;
 
+}
+
+/* agenda related style */
+
+.agenda{
+    margin-bottom: 120px;
+}
+
+.agenda > .global-container{
+    height: 482px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+    border-radius: 16px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+}
+
+.agenda-info{
+    font-family: "Inter", serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #070211;
+    margin: 14px 0px;
+}
+
+.agenda-info > span{
+    color: #FF0000;
+}
+
+.agenda-btn{
+    background-color: #FF0000;
+    color: white;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding: 16px 32px;
+    margin-top: 24px;
+    border-radius: 8px;
 }
