@@ -1,0 +1,78 @@
+/* shared styles */
+
+*{
+    margin: 0px;
+}
+
+.global-container{
+    width: 1320px;
+    /* border: 1px solid red; */
+}
+
+.primary-section-heading{
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: bolder;
+    color: white;
+
+}
+
+
+/* new year party related styles */
+
+.new-year-party{
+    /* text-align: center; */
+    padding: 100px 0px;
+}
+
+.new-year-party > .global-container{
+    height: 600px;
+    background-image: linear-gradient(rgba(7, 2, 17, 100), rgba(7, 2, 17, 0)), url(../images/Banner\ Image.png);
+    border-radius: 16px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+}
+
+.banner-subheading{
+    font-family: "Inter", serif;
+    font-size: 32px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 16px;
+}
+
+/* discount related styles */
+
+.discount > .global-container{
+    margin: auto;
+    text-align: center;
+    padding: 120px 50px;
+}
+
+.discount-content{
+    text-transform: uppercase;
+}
+
+.discount-title{
+    font-family: "Inter", serif;
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 38px;
+}
+
+.discount-description{
+    font-family: "Inter", serif;
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.discount-categories{
+    font-family: "Inter", serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 48px;
+}
