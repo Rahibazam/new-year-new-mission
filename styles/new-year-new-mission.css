@@ -169,3 +169,69 @@
     margin-top: 24px;
     border-radius: 8px;
 }
+
+/* coming soon section */
+
+.coming-soon > .global-container{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 120px;
+    justify-content:space-between;
+}
+
+.coming-soon-best-offer{
+    width: 393px;
+}
+
+.coming-soon-eye-brow{
+    font-family: "Inter", serif;
+    color: #FF0000;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.coming-soon-title{
+    font-family: "Merriweather", serif;
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 12px 0px 22px 0px;
+}
+
+.coming-soon-description{
+    font-family: "Inter", serif;
+    color: #070211;
+    font-size: 20px;
+
+}
+
+.circle-image{
+    padding: 25px;
+    border: #FF0000 13px solid;
+    border-radius: 50%;
+    /* align-content: space-evenly; */
+    margin-right: 100px;
+}
+
+.happy-new-year{
+    width: 276px;
+    height: 353px;
+}
+
+.coming-soon-date{
+    font-family: "Inter", serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.coming-soon-info{
+    padding: 80px 0px 40px 0px;
+}
+
+.image-container{
+    /* padding-bottom: 18px; */
+}
