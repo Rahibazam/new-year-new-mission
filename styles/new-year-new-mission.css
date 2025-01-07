@@ -278,3 +278,54 @@
     color: #070211;
     font-size: 20px;
 }
+
+/* awesome portfolio related style  */
+
+.awesome-porfolio > .global-container{
+    margin: auto;
+    height: 1163px;
+}
+
+.awesome-portfolio-head{
+
+}
+
+.best-gift{
+    font-family: "Inter", serif;
+    color: #FF0000;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.awesome-portfolio-title{
+    font-family: "Merriweather", serif;
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+.awesome-portfolio-description{
+    font-family: "Inter", serif;
+    color: #070211;
+    font-size: 20px;
+    margin-bottom: 48px;
+    width: 896px;
+}
+
+.portfolio-images-container{
+    display: flex;
+    margin: 24px 0px 24px 0px;
+}
+
+.portfolio-images > img{
+    width: 424px;
+    height: 450px;
+    /* margin: 24px 0px 24px 0px; */
+}
+
+.mid-img{
+    margin: 0px 24px 0px 24px;
+}
