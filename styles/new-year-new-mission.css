@@ -323,9 +323,148 @@
 .portfolio-images > img{
     width: 424px;
     height: 450px;
-    /* margin: 24px 0px 24px 0px; */
+}
+
+.portfolio-images > img:hover {
+    width: 404px;
+    height: 430px;
+    transition: 0.3s;
 }
 
 .mid-img{
     margin: 0px 24px 0px 24px;
+}
+
+/* newsletter related section */
+
+.newsletter > .global-container{
+    height: 482px;
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 16px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 120px;
+    justify-content: center;
+}
+
+.newsletter-title{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.newsletter-description{
+    font-family: "Inter", serif;
+    color: #070211;
+    font-size: 20px;
+    margin-bottom: 48px;
+}
+
+.newsletter-form{
+    /* width: 684px;
+    height: 72px;
+    border-radius: 50px;
+    margin: auto;
+    background-color: white;
+    align-content: space-between; */
+}
+
+.newsletter-form input[type="email"]{
+    width: 474px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    margin: auto;
+    background-color: white;
+    align-content: space-between;
+    border: 0px;
+    font-size: 18px;
+    padding-left: 50px;
+    margin-right: -3px;
+}
+
+.newsletter-form input[type="submit"]{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    margin: auto;
+    background-color: #FF0000;
+    color: white;
+    align-content: space-between;
+    border: 0px;
+    font-size: 20px;
+}
+
+.newsletter{
+    margin-bottom: 120px;
+}
+
+/* footer related styles */
+
+footer{
+    background-color: #070211;
+    color: white;
+}
+
+footer > .global-container{
+    height: 609px;
+    margin: auto;
+    padding: 5px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.footer-info{
+    display: inline;
+}
+
+.call-website{
+    display: flex;
+    font-size: 24px;
+    font-family: "Inter", serif;
+    align-items: center;
+}
+
+.call-website > img{
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer-address{
+    font-family: "Inter", serif;
+    font-size: 24px;
+}
+
+hr{
+    margin: 50px 0px 50px 0px;
+}
+
+.footer-social{
+    text-align: center;
+}
+
+.footer-social > img , a{
+    margin: 0px 12px;
+}
+
+.footer-botom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright-unsub , button{
+    font-family: "Inter", serif;
+    font-size: 24px;
+    background-color: #070211;
+    border: 0px;
+    color: white;
 }
